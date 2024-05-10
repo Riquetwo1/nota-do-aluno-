@@ -17,5 +17,11 @@ leia(n4)
 med:=(N1+N2+N3+N4)/4
 escreval("o valor da media e", med)
 
+se (med<6) entao
+escreval("aprovado")
+fimse
+
+se (med>5) entao 
+escreval("reprovado")
 
 Fimalgoritmo
